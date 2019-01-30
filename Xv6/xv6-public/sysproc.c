@@ -89,3 +89,16 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+int 
+sys_shutdown(void){ //Apagar el HW
+	outb(0xf4, 0x00);
+	return 0;
+}
+
+int
+sys_reboot(void){
+	outb(0x64,0xFE);
+	return 0;
+
+}
