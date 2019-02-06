@@ -92,8 +92,10 @@ sys_uptime(void)
 
 int 
 sys_shutdown(void){ //Apagar el HW
-	outb(0xf4, 0x00);
-	return 0;
+char *p = "Shutdown";
+  for( ; *p; p++)
+    outw(0xB004, 0x2000);
+  return 0;
 }
 
 int
