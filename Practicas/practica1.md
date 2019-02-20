@@ -20,4 +20,8 @@ gcc
 3) Interrupciones
 + Es la forma que el HW interactua con el cpu
 
+#Link de cambios
+https://github.com/DiegoDeDios/DiegOS/commit/12cc18cef9283f93d32444decb611c0bf7ec0c5b
+
 ##Que aprendí
+Nos la rifamos programando las funciones de apagado y reiniciar el sistema operativo. No sabía que C tenía funciones de tan bajo nivel para escribir valores en secciones de memoria especificas
