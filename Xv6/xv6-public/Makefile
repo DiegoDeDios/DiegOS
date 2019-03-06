@@ -183,6 +183,8 @@ UPROGS=\
 	_zombie\
 	_shutdown\
 	_reboot\
+	_chprio\
+	_lsprio\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
