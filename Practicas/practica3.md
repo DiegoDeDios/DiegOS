@@ -28,4 +28,7 @@ Crear un programa de bienvenida
  
  #Que aprendí 
  
+ La definición de proceso como un programa está mal. Es la instancia de un programa que tiene un periodo de vida
+ 
  #Url de commit
+https://github.com/DiegoDeDios/DiegOS/commit/aab431a8fbbfa38c7ca7024b601b76db7c68360c
